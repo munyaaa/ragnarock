@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span><img src="./img/logo.png"></span>
+    </div>
+  </header>
+  <div class="navbar">
+    <div class="navbar-item">
+      <a href="./index.html"><span>Home</span></a>
+    </div> 
+    <div class="navbar-item">
+      <a href="./gallery.html"><span>Gallery</span></a>
+    </div> 
+    <div class="navbar-item active" id="classes">
+      <a href="#mage-class"><span>Classes</span></a>
+      <div class="child child-1">
+        <a href="#mage-class">Mage</a>
+      </div>
+      <div class="child child-2">
+        <a href="./swordman.html">Swordman</a>
+      </div>
+    </div>
+    <div class="navbar-item">
+      <a href="./contact-us.html"><span>Contact Us</span></a>
+    </div> 
+  </div>
+  <header-mobile>
+    <span class="burger" id="burger">
+      <div></div>
+      <div></div>
+    </span>
+    <div class="logo">
+      <span><img src="./img/logo.png"></span>
+    </div>
+  </header-mobile>
+  <div class="navbar-mobile">
+    <span class="x" id="x">
+      <div class="x1"></div>
+      <div class="x2"></div>
+    </span>
+    <div class="navbar-mobile-item">
+      <a href="./index.html"><span>Home</span></a>
+    </div> 
+    <div class="navbar-mobile-item">
+      <a href="./gallery.html"><span>Gallery</span></a>
+    </div> 
+    <div class="navbar-mobile-item class active" id="classes">
+      <a>
+        <span>Classes</span>
+        <down></down>
+        <down-span></down-span>
+      </a>
+      <div class="child-mobile" id="child-mobile-1">
+        <a>Mage</a>
+      </div>
+      <div class="child-mobile" id="child-mobile-2">
+        <a href="./swordman.html">Swordman</a>
+      </div>
+    </div>
+    <div class="navbar-mobile-item">
+      <a href="./contact-us.html"><span>Contact Us</span></a>
+    </div> 
+  </div>
+  <content>
+    <div class="container" id="mage-class">
+      <h1>Classes</h1>
+      <div class="class-div">
+        <div class="box class-box">
+          <h3>Mage</h3>
+          <img class="class-img" src="./img/mage.png">
+        </div>
+        <div class="desc-div">
+          <div class="title">Description</div>
+          <p class="skill-description">
+            Mages specialize in magic as their main source of damage. Mages can deal high amount of damage with their skills although it needs a long casting time and appropriate amount of mana to cast them.<br>With much knowledge and intelligence, he/she was able to figure out ways to overpower an enemy by learning about the enemy ahead of time and planing appropriately - and with this ability has overcome many different situations and obstacles. 
+          </p>
+          <div class="subtitle">Skills</div>
+          <div class="skill">
+            <div class="box skill-box">
+              <div class="skill-img">
+                <img src="./img/mage-skill-1.png">
+              </div>
+              <div class="skill-desc">
+                <p>
+                  <strong>Soul Strike</strong><br>
+                  Active Skill<br>
+                  Cast Time: 0.5s<br>
+                </p>
+              </div>
+            </div>
+            <div class="box skill-box">
+              <div class="skill-img">
+                <img src="./img/mage-skill-2.png">
+              </div>
+              <div class="skill-desc">
+                <p>
+                  <strong>Fire Bolt</strong><br>
+                  Active Skill<br>
+                  Casting Range: 6.0m<br>
+                </p>
+              </div>
+            </div>
+            <div class="box skill-box">
+              <div class="skill-img">
+                <img src="./img/mage-skill-3.png">
+              </div>
+              <div class="skill-desc">
+                <p>
+                  <strong>Ring of Fire</strong><br>
+                  Active Skill<br>
+                  Casting Range: 6.0m<br>
+                </p>
+              </div>
+            </div>
+            <div class="box skill-box">
+              <div class="skill-img">
+                <img src="./img/mage-skill-4.png">
+              </div>
+              <div class="skill-desc">
+                <p>
+                  <strong>Spiritual Recovery</strong><br>
+                  Passive Skill<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <div class="footer">
+    <span>&copy2019 Ragnarock Mobile Company</span>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>

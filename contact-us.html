@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span><img src="./img/logo.png"></span>
+    </div>
+  </header>
+  <div class="navbar">
+    <div class="navbar-item">
+      <a href="./index.html"><span>Home</span></a>
+    </div> 
+    <div class="navbar-item">
+      <a href="./gallery.html"><span>Gallery</span></a>
+    </div> 
+    <div class="navbar-item" id="classes">
+      <a><span>Classes</span></a>
+      <div class="child child-1">
+        <a href="./mage.html">Mage</a>
+      </div>
+      <div class="child child-2">
+        <a href="./swordman.html">Swordman</a>
+      </div>
+    </div>
+    <div class="navbar-item active">
+      <a href="#contact-us"><span>Contact Us</span></a>
+    </div> 
+  </div>
+  <header-mobile>
+    <span class="burger" id="burger">
+      <div></div>
+      <div></div>
+    </span>
+    <div class="logo">
+      <span><img src="./img/logo.png"></span>
+    </div>
+  </header-mobile>
+  <div class="navbar-mobile">
+    <span class="x" id="x">
+      <div class="x1"></div>
+      <div class="x2"></div>
+    </span>
+    <div class="navbar-mobile-item">
+      <a href="./index.html"><span>Home</span></a>
+    </div> 
+    <div class="navbar-mobile-item">
+      <a href="./gallery.html"><span>Gallery</span></a>
+    </div> 
+    <div class="navbar-mobile-item class" id="classes">
+      <a>
+        <span>Classes</span>
+        <down></down>
+        <down-span></down-span>
+      </a>
+      <div class="child-mobile" id="child-mobile-1">
+        <a href="./mage.html">Mage</a>
+      </div>
+      <div class="child-mobile" id="child-mobile-2">
+        <a href="./swordman.html">Swordman</a>
+      </div>
+    </div>
+    <div class="navbar-mobile-item active">
+      <a href="#contact-us"><span>Contact Us</span></a>
+    </div> 
+  </div>
+  <content>
+    <div class="container container-form" id="contact-us">
+      <h1>Contact Us</h1>
+      <div class="input-div">
+        <div class="input-d" id="username-div">
+          <label>Username</label>
+          <input id="username" type="" name="" placeholder="Enter your username" autofocus>
+        </div>
+        <span id="username-error-msg" class="error-msg"></span>
+        <div class="input-d">
+          <label>Age</label>
+          <input id="age" type="" name="" placeholder="Enter your age">
+        </div>  
+        <span id="age-error-msg" class="error-msg"></span> 
+        <div class="input-d">
+          <label>Country</label>
+          <select>
+            <option>Indonesia</option>
+            <option>Malaysia</option>
+            <option>Singapore</option>
+            <option>Filipine</option>
+            <option>Thailand</option>
+          </select>
+        </div>
+        <div class="input-d">
+          <label>Address</label>
+          <input id="address" type="" name="" placeholder="Enter your address">
+        </div>  
+        <span id="address-error-msg" class="error-msg"></span>
+        <div class="input-d">
+          <label>Comments</label>
+          <textarea id="comments" rows="6" placeholder="min. 5 characters and max. 500 characters."></textarea>
+        </div>
+        <span id="comments-error-msg" class="error-msg"></span> 
+        <div class="submit-div">
+          <button class="submit-btn" id="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </content>
+  <div class="modals">
+    <div class="modals-box">
+      <span><img src="./img/success.png"></span>
+      <span>Submit Success!</span>
+    </div>
+  </div>
+  <div class="footer">
+    <span>&copy2019 Ragnarock Mobile Company</span>
+  </div>
+  <script src="./js/script.js"></script>
+  <script src="./js/form.js"></script>
+</body>
+</html>
